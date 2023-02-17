@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import Image from 'next/image';
 
-import bg_desktop from '../public/images/bg_desktop.svg';
+import bg_desktop from '../public/images/bg_desktop.webp';
 
 type BackgroundProps = {};
 
