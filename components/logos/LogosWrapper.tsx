@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import Image from 'next/image';
 
-import mainMobile from '../../public/images/main-mobile.png';
+import mainMobile from '../../public/images/main-mobile.svg';
 import LogosList from './LogosList';
 
 type LogosWrapperProps = {};
