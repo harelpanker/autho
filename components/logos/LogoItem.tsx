@@ -11,7 +11,7 @@ type LogoItemProps = {
 const LogoItem: FC<LogoItemProps> = (props) => {
   const { src, alt = '', width, height } = props;
   return (
-    <li>
+    <li className='xl:max-w-[21%] xl:flex xl:justify-center xl:items-center'>
       <Image
         quality={100}
         priority

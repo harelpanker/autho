@@ -16,8 +16,8 @@ export default function Home() {
       <main
         className={`min-h-screen px-5 py-20 flex flex-col justify-center relative`}>
         <Container>
-          <div className='flex flex-col items-center space-y-5'>
-            <TypographyH1 text='Permit - Auth0' />
+          <div className='flex flex-col items-center space-y-8'>
+            <h1 className='text-5xl font-bold'>Permit - Auth0</h1>
             <ul className='flex gap-4'>
               <li>
                 <ButtonLink href='/signup' text='Signup' />

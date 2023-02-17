@@ -1,4 +1,5 @@
 const { fontFamily } = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -31,6 +32,7 @@ module.exports = {
       'theme-white': '#FDFCFE',
       'theme-black': '#1B1B18',
       'theme-purple': '#6E56CF',
+      slate: colors.slate,
     },
   },
   plugins: [require('tailwindcss-animate')],
