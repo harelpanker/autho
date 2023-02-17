@@ -11,9 +11,9 @@ const LogosWrapper: FC<LogosWrapperProps> = ({}) => {
     <section className='flex flex-col gap-20 items-center xl:hidden'>
       <Image
         src={mainMobile}
-        alt=''
         quality={100}
         priority
+        alt=''
         className='xl:hidden'
       />
       <LogosList />
