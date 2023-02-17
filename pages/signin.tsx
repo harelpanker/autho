@@ -16,13 +16,13 @@ const signin: FC<signupProps> = ({}) => {
           <Hero />
         </div>
         {/* signup - (mobile) */}
-        <WrapperMobile />
+        <WrapperMobile showText={false} />
         {/* image - logos (mobile) */}
         <LogosWrapper />
         {/* Left side (desktop) */}
         <div className='hidden xl:grid xl:grid-cols-12 min-h-screen'>
           <WrapperLeft />
-          <WrapperRight />
+          <WrapperRight showText={false} />
         </div>
       </div>
       <BackgroundCoverMobile />
