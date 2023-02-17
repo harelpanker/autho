@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import Image from 'next/image';
 
-import bg_mobile from '../public/images/bg_mobile.webp';
+import bg_mobile from '../public/images/bg_mobile.png';
 
 type BackgroundProps = {};
 
