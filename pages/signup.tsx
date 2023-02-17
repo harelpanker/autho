@@ -4,6 +4,7 @@ import BackgroundCoverMobile from '@/components/BackgroundCoverMobile';
 import WrapperMobile from '@/components/login/WrapperMobile';
 import LogosWrapper from '@/components/logos/LogosWrapper';
 import WrapperLeft from '@/components/desktop/WrapperLeft';
+import WrapperRight from '@/components/desktop/WrapperRight';
 
 type signupProps = {};
 
@@ -21,6 +22,7 @@ const signup: FC<signupProps> = ({}) => {
         {/* Left side (desktop) */}
         <div className='hidden xl:grid xl:grid-cols-12 min-h-screen'>
           <WrapperLeft />
+          <WrapperRight />
         </div>
       </div>
       <BackgroundCoverMobile />

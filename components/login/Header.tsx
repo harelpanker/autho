@@ -11,8 +11,8 @@ type HeaderProps = { showText?: boolean };
 const Header: FC<HeaderProps> = (props) => {
   const { showText = true } = props;
   return (
-    <header className='w-full text-center flex flex-col gap2 items-center'>
-      <Image src={logo} alt='' className='hidden' />
+    <header className='w-full text-center flex flex-col gap2 items-center xl:gap-11'>
+      <Image src={logo} alt='' className='hidden xl:block' />
       <TypographyH1 text='Get started for free' />
       {showText ? (
         <p className='text-[#A1A09A] font-semibold'>
