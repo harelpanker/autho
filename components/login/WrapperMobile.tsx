@@ -8,7 +8,7 @@ type WrapperMobileProps = {};
 const WrapperMobile: FC<WrapperMobileProps> = ({}) => {
   return (
     <section className='bg-theme-white w-full max-w-sm mx-auto rounded-lg px-4 py-16 flex flex-col gap-9 items-center xl:hidden my-9'>
-      <Header />
+      <Header showText={false} />
       <LoginButtons />
       <LoginButtomLink />
     </section>

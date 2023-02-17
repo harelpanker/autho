@@ -13,7 +13,7 @@ const Header: FC<HeaderProps> = (props) => {
   return (
     <header className='w-full text-center flex flex-col gap2 items-center xl:gap-11'>
       <Image src={logo} alt='' className='hidden xl:block' />
-      <TypographyH1 text='Get started for free' />
+      <TypographyH1 text='Sign in to your account' />
       {showText ? (
         <p className='text-[#A1A09A] font-semibold'>
           No credit card required,
