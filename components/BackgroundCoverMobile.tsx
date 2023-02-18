@@ -10,6 +10,8 @@ const BackgroundCoverMobile: FC<BackgroundProps> = ({}) => {
     <>
       <Image
         priority
+        placeholder='blur'
+        blurDataURL={`/_next/image?url=${bg_mobile}&w=16&q=1`}
         src={bg_mobile}
         alt=''
         className='absolute xl:hidden inset-0 w-full h-full object-cover z-10'

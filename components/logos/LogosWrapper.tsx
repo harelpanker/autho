@@ -12,6 +12,8 @@ const LogosWrapper: FC<LogosWrapperProps> = ({}) => {
       <Image
         src={mainMobile}
         quality={100}
+        placeholder='blur'
+        blurDataURL={`/_next/image?url=${mainMobile}&w=16&q=1`}
         priority
         alt=''
         className='xl:hidden'
